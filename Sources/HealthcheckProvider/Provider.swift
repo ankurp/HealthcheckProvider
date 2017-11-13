@@ -1,7 +1,7 @@
 import Vapor
 
 public final class Provider: Vapor.Provider {
-  public static var repositoryName: String = "healthcheck-provider"
+  public static let repositoryName: String = "healthcheck-provider"
   public var healthCheckUrl: String?
 
   public init(config: Config) throws {
