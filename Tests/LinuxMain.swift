@@ -2,5 +2,5 @@ import XCTest
 @testable import HealthcheckProviderTests
 
 XCTMain([
-    testCase(HealthcheckProviderTests.allTests),
+  testCase(HealthcheckProviderTests.allTests),
 ])
